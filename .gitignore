@@ -1,2 +1,9 @@
 myvenv
 .env
+__pycache__/
+*.pyc
+.DS_Store
+.AppleDouble
+.LSOverride
+.VSCode/
+*.log

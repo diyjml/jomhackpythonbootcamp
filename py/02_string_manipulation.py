@@ -35,22 +35,22 @@
 # print(double_quote)
 # print(triple_quote) 
 
-single_quote = 'It is a nice day'
-double_quote = "He said, \"how you doin'?\""
-triple_quote = """She said, and I quote:
-"It's a beautiful world, we live in!" """
+# single_quote = 'It is a nice day'
+# double_quote = "He said, \"how you doin'?\""
+# triple_quote = """She said, and I quote:
+# "It's a beautiful world, we live in!" """
 
-print(single_quote)
-print(double_quote)
-print(triple_quote)
+# print(single_quote)
+# print(double_quote)
+# print(triple_quote)
 
-Exercise: Build a simple text analyzer that counts words, characters, and sentences in a given text. 
-
-text ="""Python is a powerful programming language. It's easy to learn and versatile!
+text = """Python is a powerful programming language. It's easy to learn and versatile!
 You can use Python for web development, data science, and automation. The syntax is clean and readable. 
 This makes Python perfect for beginners and experts alike."""
 
+# Word Count
 word_count = len(text.split())
+print("Word Count:", word_count)
 
 # Character Count
 char_count = len(text)
