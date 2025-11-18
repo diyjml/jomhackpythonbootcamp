@@ -1,0 +1,37 @@
+# # Basic exception handling 
+# try:
+#     number = int(input("Enter a number: "))
+#     result = 10 / number
+#     print(f"Result: {result}")
+# except ValueError:
+#     print("Invalid Input! Please enter a number.")
+# except ZeroDivisionError:
+#     print("Cannot divide by zero!")
+
+# # Using else and finally 
+try:
+    file = open("data.txt", "r")
+except FileNotFoundError:
+    print("File Not Found!")
+else:
+    #Execute if no exception occured 
+    content = file.read()
+    print(f"File read successfully: {content}")
+finally:
+    # Always executes 
+    if 'file' in locals() and not file.closed:
+        file.close()
+    print("Cleanup completed.")
+
+# Raising Exceptions 
+# def validate_age(age):
+#     if age < 0:
+#         raise ValueError("Age cannot be negative!")
+#     if age > 59:
+#         raise ValueError("Age seems unrealistic!")
+#     return True
+
+# try:
+#     validate_age(-5)
+# except ValueError as e:
+#     print(f"Validation error: {e}")
