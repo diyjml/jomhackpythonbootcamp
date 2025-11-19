@@ -252,5 +252,40 @@
 # thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 # print(thislist[2:5])
 
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(thislist[-4:-1])
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[-4:-1])
+
+# thislist = ["apple", "kiwi", "bananas"]
+# thislist[1] = "blackcurrant"
+# print(thislist)
+
+# thislist = ["apple", "kiwi", "bananas", "cherries", "oranges"]
+# # thislist[1:3] = ["blackcurrant", "mangoes"]
+# thislist[1:2] = ["blackcurrant", "watermelon"]
+# print(thislist)
+
+# thislist = ["apple", "kiwi", "bananas"]
+# thislist.insert(2, "watermelon")
+# print(thislist)
+
+# mylist = ['apple', 'banana', 'cherry']
+# mylist[0] = 'kiwi'
+# print(mylist[1])
+
+# thislist = ["apple", "banana", "cherry"]
+# thislist.append("orange")
+# print(thislist)
+
+# thislist = ["apple", "banana", "cherry"]
+# thislist.insert(1, "orange")
+# print(thislist)
+
+# thislist = ["apple", "banana", "cherry"]
+# tropical = ["mango", "pineapple", "papaya"]
+# thislist.extend(tropical)
+# print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+thistuple = ("kiwi", "orange")
+thislist.extend(thistuple)
+print(thislist)
